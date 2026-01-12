@@ -59,4 +59,8 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
-exclude: ["README.md"]
+#exclude: ["README.md"]
+exclude:
+  - README.md
+  - vendor
+  - vendor/**
